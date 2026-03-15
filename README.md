@@ -1,73 +1,90 @@
-# Welcome to your Lovable project
+# TM KANISHKA GARMENTS - Landing Page
 
-## Project info
+A professional landing page for TM KANISHKA GARMENTS, a bulk garment manufacturer based in Tiruppur, Tamil Nadu.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Features
 
-## How can I edit this code?
+- **Modern React/TypeScript** application built with Vite
+- **Responsive design** with Tailwind CSS
+- **Professional B2B focused** content
+- **Contact forms** with WhatsApp integration
+- **Product showcase** for undergarments, sportswear, socks, and t-shirts
+- **Business information** including CEO details and office locations
 
-There are several ways of editing your application.
+## Business Details
 
-**Use Lovable**
+- **Company:** TM KANISHKA GARMENTS
+- **CEO:** APJ V Mathialagan
+- **Phone:** +91 87540 11563
+- **Email:** info@tmkanishkagarments.com
+- **Locations:** Tiruppur, Tamil Nadu (2 offices)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend:** React 18, TypeScript
+- **Styling:** Tailwind CSS, shadcn/ui components
+- **Build Tool:** Vite
+- **Routing:** React Router DOM
+- **Forms:** React Hook Form with Zod validation
+- **Icons:** Lucide React
 
-**Use your preferred IDE**
+## Development
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+# Install dependencies
+npm install
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Render Deployment
 
-**Use GitHub Codespaces**
+This project is ready for Render deployment:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **Connect GitHub repository** to Render
+2. **Service Type:** Static Site
+3. **Build Command:** `npm run build`
+4. **Publish Directory:** `dist`
+5. **Node Version:** 18+ (automatic detection)
 
-## What technologies are used for this project?
+### Other Platforms
 
-This project is built with:
+- **Netlify:** Drag & drop the `dist` folder or connect GitHub repo
+- **Vercel:** Import GitHub repository
+- **GitHub Pages:** Enable Pages in repository settings
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Project Structure
 
-## How can I deploy this project?
+```
+src/
+├── components/          # React components
+│   ├── ui/             # shadcn/ui components
+│   ├── HeroSection.tsx
+│   ├── AboutSection.tsx
+│   ├── ContactSection.tsx
+│   └── ...
+├── assets/             # Images and static files
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+└── lib/                # Utilities
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+public/
+├── _redirects          # SPA routing for static hosts
+└── robots.txt          # SEO configuration
+```
 
-## Can I connect a custom domain to my Lovable project?
+## Contact
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+For business inquiries:
+- **Phone:** +91 87540 11563
+- **Email:** info@tmkanishkagarments.com
+- **WhatsApp:** Available through website contact forms
